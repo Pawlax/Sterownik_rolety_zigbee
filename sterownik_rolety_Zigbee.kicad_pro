@@ -181,8 +181,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.4,
+        0.15,
+        0.8,
         1.5
       ],
       "tuning_pattern_settings": {
@@ -489,7 +489,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "Power230",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.5,
