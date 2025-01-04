@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "79ba19fa-5a3c-4cbe-acd8-e6553b0dca1b")
 	(paper "A4")
+	(title_block
+		(title "Mikrokontroler")
+		(company "Kuba Kulesza, Józef Wiatr, Paweł Laks")
+	)
 	(lib_symbols
 		(symbol "DLF162500LT-5028A1:DLF162500LT-5028A1"
 			(exclude_from_sim no)

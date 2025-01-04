@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "0b3d79dd-7123-4fed-ab12-583b2724659d")
 	(paper "A4")
+	(title_block
+		(title "Wyjścia")
+		(company "Kuba Kulesza, Józef Wiatr, Paweł Laks")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers hide)

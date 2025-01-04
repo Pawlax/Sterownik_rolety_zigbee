@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "8e2d98b2-2c14-460b-b5bb-f48fba3065f8")
 	(paper "A4")
+	(title_block
+		(title "Zasilanie")
+		(company "Kuba Kulesza, Józef Wiatr, Paweł Laks")
+	)
 	(lib_symbols
 		(symbol "IRM-01-3_3:IRM-01-3.3"
 			(exclude_from_sim no)
