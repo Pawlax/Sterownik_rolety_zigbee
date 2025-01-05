@@ -1,0 +1,25 @@
+Reference,Value,Footprint,Qty,Description
+,,,,
+"C1,C2,C4,C7,C9,C10,C12,C17",100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,8,Unpolarized capacitor
+"C3,C16",1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,Unpolarized capacitor
+C5,10uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Unpolarized capacitor
+C6,4.7uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Unpolarized capacitor
+C8,470nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Unpolarized capacitor
+C11,0.8pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Unpolarized capacitor
+"C13,C14",16pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,Unpolarized capacitor
+C15,0.3pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Unpolarized capacitor
+"D1,D2",LED_Red,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,"Light emitting diode, filled shape"
+FL1,DLF162500LT-5028A1,Sterownik_roletyLibrary:DLF162500LT5028A1,1,Signal Conditioning LTCC LOW PASS FLTR 2400-2500MHz
+IC1,STM32WBA54KGU6,Sterownik_roletyLibrary:QFN50P500X500X60-33N-D,1,"Wireless Arm Cortex-M33 Trust Zone MCU 100 MHz with 1 Mbyte of Flash memory, Bluetooth LE 5.4, 802.15.4, Zigbee"
+J1,282836-5,Sterownik_roletyLibrary:2828365,1,Body Features: Product Orientation Vertical | Primary Product Color Green | Configuration Features: Number of Positions 5 | Stacking Configuration Side Stackable | Wire Entry Angle 90 | Number of Rows 1 | Stacked Levels Without | Wire Entry Location Side | Contact Features: Contact Mating Area Plating Material Tin | Contact Base Material Brass | Contact Current Rating (Max) 13.5 AMP | Dimensions: Wire Size 30  16 AWG | Wire Size .05  1.3 MMSQ | Electrical Characteristics: Operating Voltage 300 VAC |
+J2,1725669,Sterownik_roletyLibrary:1725669,1,"PCB terminal block, nominal current: 6 A, rated voltage (III/2): 160 V, nominal cross section: 0.5 mm?, Number of potentials: 3, Number of rows: 1, Number of positions per row: 3, product range: MPT 0,5, pitch: 2.54 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+J3,53398-0567,Sterownik_roletyLibrary:533980567,1,Headers & Wire Housings 1.25 WTB WAFER 5Ckt
+L1,2.7nH,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,Inductor
+PS1,RAC05-3.3SK,Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT,1,5W Single Output EMC Class B 3.3V 1515mA
+"Q1,Q2",BT136-600,Package_TO_SOT_THT:TO-220-3_Vertical,2,"4A RMS, 500V Off-State Voltage, Triac, TO-220"
+Q3,MOC3032MSR2M,Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads,1,
+Q4,MOC3032SR2M,Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads,1,
+"R1,R2,R3,R4",180R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,4,Resistor
+"R5,R6",330R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,Resistor
+"U1,U2",LTV-817,Package_DIP:SMDIP-4_W9.53mm,2,"DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+Y1,TXC 7R-32.000MEEV-T,Sterownik_roletyLibrary:TXC 7R-32.000MEEV-T,1,"Four pin crystal, GND on pins 2 and 4"
