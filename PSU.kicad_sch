@@ -5,47 +5,54 @@
 	(uuid "8e2d98b2-2c14-460b-b5bb-f48fba3065f8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "IRM-01-3_3:IRM-01-3.3"
+		(symbol "Converter_ACDC:RAC05-3.3SK"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 20.32 10.16 0)
+			(property "Reference" "PS"
+				(at 0 6.35 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "IRM-01-3.3"
-				(at 20.32 7.62 0)
+			(property "Value" "RAC05-3.3SK"
+				(at 0 -6.35 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "IRM015"
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5W Single Output EMC Class B 3.3V 1515mA"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-01/IRM-01-SPEC.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power Supply Encapsulated PCB 3.3V 1W"
+			(property "ki_keywords" "ac dc power supply"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,60 +61,19 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "15"
-				(at 21.59 -394.92 0)
+			(property "ki_fp_filters" "Converter*ACDC*RECOM*RAC05*SK*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "709-IRM01-3.3"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-01-3.3?qs=C9r8PV%2F%252BoWPYMhpLuTFr9w%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Mean Well"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IRM-01-3.3"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "IRM-01-3.3_1_1"
+			(symbol "RAC05-3.3SK_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -116,10 +82,142 @@
 						(type background)
 					)
 				)
-				(pin power_out line
-					(at 0 0 0)
-					(length 5.08)
-					(name "+V"
+				(arc
+					(start -5.334 0.635)
+					(mid -4.699 0.2495)
+					(end -4.064 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 0.635)
+					(mid -3.429 1.0072)
+					(end -4.064 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -0.635) (xy -2.794 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.635) (xy 5.334 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.635) (xy 3.302 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.635) (xy 4.318 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 0.635) (xy 5.334 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AC(L)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -134,10 +232,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-V"
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AC(N)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -152,10 +250,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "AC/N"
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -170,10 +268,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "AC/L"
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -181,6 +279,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,17 +525,27 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 121.92 93.98)
+			(xy 102.87 78.74) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17bf6e03-48ff-408a-a592-3b80d4cc9f57")
+		(uuid "21178f6f-310b-4771-8507-f66615dad9c3")
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 121.92 91.44)
+			(xy 124.46 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342e0153-e2f3-43db-83e3-2d29397b552c")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -429,13 +555,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 123.19 96.52)
+			(xy 124.46 78.74) (xy 127 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ba720b6-7f69-4682-a6d4-2bbb27273239")
+		(uuid "a44881d7-80bf-48b1-ad9a-eaf42feefbbf")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df929734-2c70-451b-8e0c-41dc11a76d07")
 	)
 	(text "PSU"
 		(exclude_from_sim no)
@@ -449,51 +585,51 @@
 	)
 	(global_label "N_connector"
 		(shape input)
-		(at 148.59 96.52 0)
+		(at 102.87 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d316c63a-c0a0-4b62-bfce-a814823c7cb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.247 96.52 0)
+			(at 88.213 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "L_connector"
 		(shape input)
-		(at 148.59 93.98 0)
+		(at 102.87 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d36fd351-9f9c-4521-b3e5-1efd26306901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.9446 93.98 0)
+			(at 88.5154 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 121.92 91.44 0)
+		(at 127 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -501,8 +637,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253b1508-8236-443d-8c93-3909874d7f34")
-		(property "Reference" "#PWR015"
-			(at 121.92 95.25 0)
+		(property "Reference" "#PWR016"
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -511,7 +647,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 121.92 86.36 0)
+			(at 127 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 91.44 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 91.44 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,7 +673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 121.92 91.44 0)
+			(at 127 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +687,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d9942cb9-a0c0-49db-85f2-749386b323ae"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -559,7 +695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 96.52 0)
+		(at 127 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -567,8 +703,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2754f257-3a5f-4d1a-8d2c-c2d323c29102")
-		(property "Reference" "#PWR014"
-			(at 120.65 102.87 0)
+		(property "Reference" "#PWR017"
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 101.6 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,7 +721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 96.52 0)
+			(at 127 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 96.52 0)
+			(at 127 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 96.52 0)
+			(at 127 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,60 +753,40 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d9942cb9-a0c0-49db-85f2-749386b323ae"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "IRM-01-3_3:IRM-01-3.3")
-		(at 123.19 93.98 0)
+		(lib_id "Converter_ACDC:RAC05-3.3SK")
+		(at 114.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf8b9266-18db-4c44-a411-c23bffe04707")
-		(property "Reference" "U3"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IRM-01-3.3"
-			(at 143.51 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Sterownik_roletyLibrary:IRM015"
-			(at 123.19 93.98 0)
+		(uuid "6de178ab-3f4f-43a7-8894-48a14b9b0038")
+		(property "Reference" "PS1"
+			(at 114.3 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-01/IRM-01-SPEC.PDF"
-			(at 123.19 93.98 0)
+		(property "Value" "RAC05-3.3SK"
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power Supply Encapsulated PCB 3.3V 1W"
-			(at 123.19 93.98 0)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_RECOM_RAC05-xxSK_THT"
+			(at 114.3 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,72 +794,43 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "15"
-			(at 144.78 488.9 0)
+		(property "Datasheet" "https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf"
+			(at 111.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "709-IRM01-3.3"
-			(at 144.78 588.9 0)
+		(property "Description" "5W Single Output EMC Class B 3.3V 1515mA"
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-01-3.3?qs=C9r8PV%2F%252BoWPYMhpLuTFr9w%3D%3D"
-			(at 144.78 688.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Mean Well"
-			(at 144.78 788.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IRM-01-3.3"
-			(at 144.78 888.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "63f5bcdf-6198-45cf-ae8c-772f122f6493")
-		)
-		(pin "3"
-			(uuid "e0ab4518-c378-411d-a78d-9c1fbf677599")
 		)
 		(pin "4"
-			(uuid "cc1c2197-9563-4245-a8a8-adb231c9a9c8")
+			(uuid "ff70ae73-36d2-4dfb-a522-86f29f79435c")
 		)
 		(pin "1"
-			(uuid "08d5ee97-a0fd-41f4-be1d-d18c73af263b")
+			(uuid "4f762c9f-c159-46cb-b18b-b1b217b36519")
+		)
+		(pin "3"
+			(uuid "0bbaa805-64b1-4f1a-815f-b24f722345f2")
+		)
+		(pin "5"
+			(uuid "3ab3f4a1-b07b-414b-8b69-4265da4092dd")
+		)
+		(pin "2"
+			(uuid "f7a61802-64f0-462c-9ec9-ce091e931b26")
 		)
 		(instances
-			(project "sterownik_rolety_Zigbee"
+			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d9942cb9-a0c0-49db-85f2-749386b323ae"
-					(reference "U3")
+					(reference "PS1")
 					(unit 1)
 				)
 			)

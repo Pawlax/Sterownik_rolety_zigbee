@@ -1403,7 +1403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071d4fcc-7770-492a-82e4-e0913ffc34a0")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 72.39 128.27 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(instances
 			(project "sterownik_rolety_Zigbee"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a9dba8c8-3d89-40ee-aacd-471fe4707141"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71729603-c9f9-4846-87c2-664b880a2b25")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 96.52 133.35 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 		(instances
 			(project "sterownik_rolety_Zigbee"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a9dba8c8-3d89-40ee-aacd-471fe4707141"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1605,7 +1605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7afa7f8-8cc2-4add-9ae9-1bc3172c9a5e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 77.47 139.7 0)
 			(effects
 				(font
@@ -1655,7 +1655,7 @@
 		(instances
 			(project "sterownik_rolety_Zigbee"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/a9dba8c8-3d89-40ee-aacd-471fe4707141"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
